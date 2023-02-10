@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400;1,500&display=swap');
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    width: 100%;
+    min-height: 100vh;
+    overflow: hidden;
+    background:#ffd13a ;
+}
+section{
+    width: 100%;
+    position: relative;
+}
+.navbar{
+    width: 100%;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.2vw 6vw;
+    background: #ffd13a;
+
+
+}
+.logo{
+    font-size: 3vw;
+    color:#fff;
+    font-weight: 800;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.menuitems{
+    display: flex;
+    margin: auto 0;
+}
+.menuitems li{
+    list-style: none;
+    margin: 0 1.5vw;
+}
+.menuitems li a{
+    display: flex;
+    color: #fff;
+    font-size: 1.5vw;
+    letter-spacing: 4px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.menuitems li:hover a{
+    color: #000;
+}
+.container{
+    display: flex;
+    width: 100%;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.textcontainer{
+    width: 50%;
+    padding-left: 5rem;
+    padding-top: 5rem;
+}
+.textcontainer h2{
+    font-size: 10vw;
+    font-weight: 900;
+    line-height: 10vw;
+    text-transform: capitalize;
+}
+.textcontainer h2::first-line{
+    color: #fff;
+    letter-spacing: 5px;
+    text-shadow: 0 5px 10px rgba(0,0,0,0.5);
+}
+.textcontainer h5{
+    color: #fff;
+    font-size: 2vw;
+    font-weight: 300;
+    text-align: left;
+    margin-top:20px ;
+    margin-right: 10vw;
+    text-transform: capitalize;
+}
+.textcontainer p{
+    font-size: 1vw;
+    font-weight: 400;
+    color: rgb(0, 0, 0);
+    margin-top: 30px;
+}
+.imgcontainer{
+    display: flex;
+    width: 50%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.imgbox{
+    position: relative;
+    min-width: 70vh;
+    margin-right: 10vw;
+}
+.imgbox img{
+    height: 100%;
+    width: 100%;
+    margin-top: 8vw;
+    margin-left: 5vw;
+    object-fit: cover;
+}
